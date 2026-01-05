@@ -6,3 +6,4 @@ matplotlib
 tqdm
 Pillow
 scikit-learn
+gradio

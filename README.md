@@ -75,6 +75,16 @@ python predict.py --model_path models/best_model.pth --num_viz 20
 ```
 结果将保存在 `results/` 目录下，包含 T1, T2, GT 和 Prediction 的对比图。
 
+### 4.5 Web 交互演示 (Web Demo)
+本项目提供基于 Gradio 的 Web 界面，支持上传任意图片进行测试。
+1. 安装依赖: `pip install gradio`
+2. 启动服务:
+```bash
+python app.py
+```
+3. 打开浏览器访问显示的 URL (通常为 http://127.0.0.1:7860)。
+4. 拖入两张图片，点击 "Detect Changes" 即可查看变化区域。
+
 ## 5. 结果分析与总结 (Conclusion)
 
 ### 5.1 预期结果
